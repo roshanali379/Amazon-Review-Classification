@@ -1,24 +1,28 @@
 # Amazon Review Sentiment Classification
 
+## Author
+- **Name:** Roshan Ali
+- **Project Type:** Machine Learning / NLP
+- **Model Used:** Logistic Regression
+- **Language:** Python
+
+---
+
 ## Project Overview
-This project performs sentiment classification on a large Amazon Review dataset using Machine Learning.
 
-The dataset size is more than 12GB and includes Amazon Electronics and Video Games reviews.
+This project performs sentiment classification on Amazon product reviews using Machine Learning techniques.
 
-## Objectives
-- Read large dataset
-- Preprocess text data
-- Apply classification model
-- Generate results and graphs
-- Upload project on GitHub
+The model predicts whether a review is:
 
-## Dataset
-Amazon Review Dataset
+- Positive Review
+- Negative Review
 
-## Dataset Size
-12GB+
+The dataset used contains Amazon Video Games reviews.
+
+---
 
 ## Technologies Used
+
 - Python
 - Pandas
 - NumPy
@@ -27,22 +31,56 @@ Amazon Review Dataset
 - Scikit-learn
 - Jupyter Notebook
 
-## Machine Learning Model
-Logistic Regression
+---
 
-## Accuracy
-92.81%
+## Machine Learning Workflow
 
-## Graphs
+1. Load Dataset
+2. Data Cleaning
+3. Text Preprocessing
+4. TF-IDF Vectorization
+5. Train/Test Split
+6. Logistic Regression Model
+7. Accuracy Evaluation
+8. Graph Visualization
 
-### Sentiment Distribution
-![Sentiment Distribution](images/sentiment_distribution.png)
+---
+
+## Model Accuracy
+
+**Accuracy Achieved:** `92.81%`
+
+---
+
+## Graphs and Results
 
 ### Accuracy Graph
+
 ![Accuracy Graph](images/accuracy_graph.png)
 
+---
+
 ### Confusion Matrix
+
 ![Confusion Matrix](images/confusion_matrix.png)
 
-## Conclusion
-This project successfully classified Amazon reviews into positive and negative sentiments using Logistic Regression with high accuracy.
+---
+
+### Sentiment Distribution
+
+![Sentiment Distribution](images/sentiment_distribution.png)
+
+---
+
+## Project Structure
+
+```bash
+Amazon-Review-Classification/
+│
+├── amazon_review_classification.ipynb
+├── README.md
+├── requirements.txt
+└── images/
+    ├── accuracy_graph.png
+    ├── confusion_matrix.png
+    └── sentiment_distribution.png
